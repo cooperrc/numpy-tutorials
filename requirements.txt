@@ -6,3 +6,7 @@ matplotlib
 pytest
 nbval
 statsmodels
+sphinx-click
+sphinx_inline_tabs
+jupytext~=1.6.0
+sphinxext-rediraffe~=0.2.3
