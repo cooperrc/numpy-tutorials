@@ -1,0 +1,9 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: README.md
+- file: content/cs231_tutorial
+- file: content/save-load-arrays
+- file: content/mooreslaw-tutorial
+- file: content/tutorial-svd
+- file: content/tutorial-style-guide
