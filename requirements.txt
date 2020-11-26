@@ -1,4 +1,5 @@
 # For the tutorials
+jupytext
 jupyter-book
 numpy
 scipy
