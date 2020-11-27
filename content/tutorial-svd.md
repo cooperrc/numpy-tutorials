@@ -4,6 +4,8 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.6.0
 kernelspec:
   display_name: Python 3
   language: python
@@ -166,7 +168,7 @@ img_gray.shape
 
 To see if this makes sense in our image, we should use a colormap from `matplotlib` corresponding to the color we wish to see in out image (otherwise, `matplotlib` will default to a colormap that does not correspond to the real data).
 
-In our case, we are approximating the grayscale portion of the image, so we will use the colormap `gray`:   
+In our case, we are approximating the grayscale portion of the image, so we will use the colormap `gray`:
 
 ```{code-cell} ipython3
 plt.imshow(img_gray, cmap="gray")
@@ -237,7 +239,7 @@ In the graph, we can see that although we have 768 singular values in `s`, most 
 
 The idea is to consider all but the first `k` singular values in `Sigma` (which are the same as in `s`) as zeros, keeping `U` and `Vt` intact, and computing the product of these matrices as the approximation.
 
-For example, if we choose 
+For example, if we choose
 
 ```{code-cell} ipython3
 k = 10
