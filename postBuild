@@ -1,3 +1,0 @@
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install jupytext 
-jupyter lab build
